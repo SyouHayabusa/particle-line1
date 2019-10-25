@@ -1,0 +1,222 @@
+.Cover {
+  width: 100vw;
+  min-height: 1000px;
+}
+
+.flexrow {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexrow1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.flexrow2 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flexrow3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexcol1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.flexcol2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.hide {
+  display: none;
+}
+
+.clearfix:after {
+  content: ".";
+  /*加一段内容*/
+  display: block;
+  /*让生成的元素以块级元素显示，占满剩余空间*/
+  height: 0;
+  /*避免生成的内容破坏原有布局高度*/
+  clear: both;
+  /*清除浮动*/
+  visibility: hidden;
+  /*让生成的内容不可见*/
+}
+
+.mrginT5 {
+  margin-top: 5px;
+}
+
+.mrginT10 {
+  margin-top: 10px;
+}
+
+.mrginT15 {
+  margin-top: 15px;
+}
+
+.mrginT20 {
+  margin-top: 20px;
+}
+
+.mrginT25 {
+  margin-top: 25px;
+}
+
+
+.paddingT5 {
+  padding-top: 5px;
+}
+
+.paddingT10 {
+  padding-top: 10px;
+}
+
+.paddingT15 {
+  padding-top: 15px;
+}
+
+.paddingT20 {
+  padding-top: 20px;
+}
+
+.paddingT25 {
+  padding-top: 25px;
+}
+
+
+
+.zls-bar {
+  width: 80%;
+  height: 80px;
+}
+
+.zls-bar ul {
+  overflow: hidden;
+  width: 90%;
+}
+
+.zls-bar li {
+  float: left;
+  width: 19.9%;
+}
+
+.zls-bar li.current div {
+  background: #e7445a;
+  color: #fff;
+}
+
+.zls-bar li.first div {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.zls-bar li div {
+  position: relative;
+  margin-right: 33px;
+  line-height: 36px;
+  height: 36px;
+  background: #e8ecef;
+  text-align: center;
+  color: #008acb;
+  font-size: 14px;
+}
+
+.zls-bar li.first i.l {
+  display: none;
+}
+
+.zls-bar li i.l {
+  border-left: 18px solid #fff;
+  left: 0;
+}
+
+.zls-bar li i {
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+user agent stylesheet i {
+  font-style: italic;
+}
+
+.zls-bar li.current div {
+  background: #e7445a;
+  color: #fff;
+}
+
+.zls-bar li div {
+  position: relative;
+  margin-right: 33px;
+  line-height: 36px;
+  height: 36px;
+  background: #e8ecef;
+  text-align: center;
+  color: #008acb;
+  font-size: 14px;
+}
+
+.zls-bar li.current i.r {
+  border-left-color: #e7445a;
+}
+
+.zls-bar li i.r {
+  border-left: 18px solid #e8ecef;
+  right: -18px;
+}
+
+@keyframes dialog-fade-in {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes dialog-fade-out {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate3d(0, -100%, 0);
+    opacity: 0;
+  }
+}
